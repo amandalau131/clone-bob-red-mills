@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="practice_bob red mills\reset.css" type="text/css" media="all">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+    <title>Bob Red Mills</title>
+</head>
+<body>
+    <!-- HEADER CONTAINER TO APPLY FIXED POSITION-->
+    <div class="header-container">
+        <header>
+            <!-- HAMBURGER MENU -->
+            <div class="container-menu">
+                <label for="menu-toggle" class="menu-icon">&#9776</label>
+                <input type="checkbox" id="menu-toggle">
+                <div class="menu-nav">
+                    <ul>
+                        <li><a href="#">Shop</a></li>
+                        <li><a href="#">Recipes</a></li>
+                        <li><a href="#">Bob's Way</a></li>
+                        <li><a href="#">Our Blog</a></li>
+                        <li><a href="#">Find a Store</a></li>
+                    </ul> 
+                </div>
+            </div> 
+            <!-- LOGO -->
+            <img class="header-logo" src="brm-logo.png" alt="company logo">
+            <!-- NAV ICONS -->
+            <div class="navbar">
+                <a href="#" class="navbar__link">
+                    <span class="material-icons">location_on</span>
+                </a>
+                <a href="#" class="navbar__link">
+                    <span class="material-icons">person</span>
+                </a>
+                <a href="#" class="navbar__link">
+                    <span class="material-icons">shopping_cart</span>
+                </a>
+            </div>
+        </header>
+    </div>
+
+    <!-- SEARCHBAR -->
+    <div class="searchbar">
+        <a class="searchbar__btn" href="#">
+            <i class="material-icons">search</i>
+        </a>
+        <input class="searchbar__input" type="text" placeholder="Search entire store" aria-label="search">
+    </div>
+
+    <!-- SECTION: SLIDE -->
+    <section class="container container-card">
+        <div class="card card-1">
+            <h1 class="card__title">SOUPS &AMP STEWS</h1>
+            <a class="card__btn" href="#">BROWSE RECIPES</a>
+        </div>
+        <div class="card card-2">
+            <h1 class="card__title">SNACKING STAPLES</h1>
+            <a class="card__btn" href="#">SHOP NOW</a>
+        </div>
+        <div class="card card-3">
+            <h1 class="card__title">HOLIDAY DESSERTS</h1>
+            <a class="card__btn" href="#">BROWSE RECIPES</a>
+        </div>
+        <div class="card card-4">
+            <h1 class="card__title">NO KID HUNGRY</h1>
+            <a class="card__btn" href="#">LEARN MORE</a>
+        </div>
+    </section>  
+
+    <!-- SECTION HERO: HOLIDAY-->
+    <section class="container hero-holiday">
+        <h1 class="hero-holiday__title">HOMEMADE FOR THE HOLIDAYS WITH BOB'S</h1>
+        <a class="hero-holiday__btn" href="#">EXPLORE IDEAS</a>
+    </section>
+    
+    <!-- SECTION HERO: NO KID HUNGRY -->
+    <section class="container hero-nokidhungry">
+        <h2 class="hero-nokidhungry__title">PROUD SUPPORTERS OF</h2>
+        <img class="hero-nokidhungry__logo" src="nokidhungry-logo-white.svg" alt="No Kid Hungry logo">
+        <a class="hero-nokidhungry__btn" href="#">LEARN MORE</a>
+    </section>
+
+    <!-- SECTION: FORM -->
+    <div class="container container-formmail">
+        <h3 class="container-formmail__title">Join our mailing list</h3>
+        <form class="mailform" action="" method="get">
+            <input id="mailform__firstname" type="text" placeholder="First Name" aria-label="firstname" required>
+            <input id="mailform_email" type="email" placeholder="Email Address" aria-label="email" required >
+           <input id="mailform__submit" type="submit" value="submit" aria-label="submit">
+        </form>
+    </div>
+
+        <!-- SECTION: FOOTER -->
+    <footer class="container footer">
+        <div class="footer-section">
+            <h3 class="footer-section__title">CUSTOMER SERVICE</h2>
+            <ul class="footer-section__links">
+                <li><a href="#">Contact us</a></li>
+                <li><a href="#">Order Status</a></li>
+                <li><a href="#">FAQs</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Terms &amp Conditons</a></li>
+            </ul>        
+        </div>
+        <div class="footer-section">
+            <h3 class="footer-section__title">ABOUT US</h2>
+            <ul class="footer-section__links">
+                <li><a href="#">Meet Bob</a></li>
+                <li><a href="#">Diversity &amp Equity</a></li>
+                <li><a href="#">The Mill</a></li>
+                <li><a href="#">Employee Ownership</a></li>
+                <li><a href="#">Giving Back</a></li>
+                <li><a href="#">Non-GMO Project Verified</a></li>
+            </ul>        
+        </div>
+        <div class="footer-section">
+            <h3 class="footer-section__title">RESOURCES</h2>
+            <ul class="footer-section__links">
+                <li><a href="#">COVID-19 Response</a></li>
+                <li><a href="#">eBooks & Learning Center</a></li>
+                <li><a href="#">Join our Team</a></li>
+                <li><a href="#">Media Contact Info</a></li>
+                <li><a href="#">Donation Requests</a></li>
+                <li><a href="#">Sustainability</a></li>
+            </ul>        
+        </div>
+        <div class="footer-section">
+            <h3 class="footer-section__title">SHOP</h2>
+            <ul class="footer-section__links">
+                <li><a href="#">Shop Online</a></li>
+                <li><a href="#">Find a Store</a></li>
+                <li><a href="#">Whole Grain Store</a></li>
+                <li><a href="#">Shop Internationally</a></li>
+                <li><a href="#">Food Service</a></li>
+                <li><a href="#">Product Catalog</a></li>
+            </ul>        
+        </div>
+    </footer>
+</body>
+</html>
