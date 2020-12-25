@@ -133,7 +133,6 @@ header {
 }
 .hero-nokidhungry {
     background: url(https://images.unsplash.com/photo-1455815323463-b27bb4f82953?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Mnx8a2lkJTIwZWF0aW5nfGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60);
-    filter: sepia(30%);
 }
 .hero-holiday, .hero-nokidhungry {
     background-repeat: no-repeat;
