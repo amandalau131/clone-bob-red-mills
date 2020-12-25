@@ -74,8 +74,29 @@ header {
     display: flex;
     justify-content: center;
     margin-top: 100px;
-    width: 100%; 
+    width: 100%;   
 }
+.searchbar__input {
+    border: solid rgba(0, 0, 0, 0.658);
+    border-radius: 0 40px 40px 0;
+    border-left: none;
+    height: 40px;
+    width: 200px;
+}
+.searchbar__btn {
+    border: solid rgba(0, 0, 0, 0.658);
+    border-radius: 40px 0 0 40px;
+    border-right: none;
+    padding: 5px;
+    height: 40px;  
+}
+.searchbar__btn .material-icons {
+    color: rgba(0, 0, 0, 0.658);
+}
+.searchbar__input:focus {
+    outline: none;
+} 
+
 
 /* ---SLIDE SECTION */
 .card-1 {
